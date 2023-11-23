@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Clinica Dio.me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <img src="./images/siteClinica3.png" alt="" />
+        <span>
+          <ul>
+            <li>
+              <a href="index.html"> <font color="white">Página Principal</font></a>
+            </li>
+            <hr />
+            <li>
+              <a href="workTime.html"
+                ><font color="white">Horário de Funcionamento</font></a
+              >
+            </li>
+            <li>
+              <hr />
+              <a href="about.html"><font color="white">Sobre nós</font></a>
+            </li>
+          </ul>
+        </span>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img
+            title="Medical Clinic"
+            src="./images/siteclinica5.png"
+            width="560"
+          />
+        </div>
+
+        <div class="content" widht="50">
+          <div>
+            <h1>Deixe seu contato para retornarmos:</h1>
+
+            <form method="get">
+              <div class="row">
+                <label>Nome:</label><input type="text" /><br />
+                <label>E-mail:</label><input type="email" /><br />
+                <label>Telefone:</label><input type="number" /><br />
+                <label>Assunto:</label><input type="text" /><br />
+                <label>Comente:</label>
+                <textarea name="message"></textarea>
+              </div>
+
+              <div class="row">
+                <label>Você é:</label>
+                <select name="role">
+                  <option value="">Selecione</option>
+                  <option value="medico">Médico</option>
+                  <option value="enfermeiro">Enfermeiro</option>
+                  <option value="paciente">Paciente</option>
+                </select>
+              </div>
+              <br />
+              <button type="submit">Enviar</button>
+              <button type="reset" onclick="alert('Deseja Limpar?')">
+                Limpar
+              </button>
+            </form>
+          </div>
+
+          <br />
+          <hr />
+          <h1>Nosso endereço é:</h1>
+          <p>Pickett Rd, St Joseph, MO 64503, EUA</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.9509163162265!2d-94.7916534!3d39.740753399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c019bfa7c060e7%3A0x3420ad3b746bbca2!2sPickett%20Rd%2C%20St%20Joseph%2C%20MO%2064503%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1700761459588!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="footer">
+          <h2>E-mail:</h2>
+          <p>clinicamedica@hospital.com</p>
+          <hr />
+          <h2>Telefone:</h2>
+          <p>+1 408 548 9984</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    .content p {
+      font-size: 2rem;
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    iframe {
+      float: right;
+      margin-right: 150px;
+    }
+
+    form {
+      display: inline-block;
+      font-size: larger;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+body{
+  text-align: center;
+}
+    label {
+      width: 90px;
+      text-align: center;
+      display: inline-flex;
+    }
+  </style>
+</html>
